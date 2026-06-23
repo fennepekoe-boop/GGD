@@ -1,5 +1,5 @@
 
-<h2 class="sr-only">Dashboard luchtkwaliteit: NO2, PM10 en PM2.5 metingen 2023–2024</h2>
+<h2 class="sr-only">Dashboard Airquality: NO2, PM10 and PM2.5 measurement 2023–2024</h2>
 
 <div style="padding: 1rem 0;">
 
@@ -12,21 +12,21 @@
 <div id="tab-no2">
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 1.5rem;">
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Druk verkeer 2024</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Heavt traffic 2024</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">20.6 <span style="font-size: 13px; font-weight: 400;">µg/m³</span></p>
       <p style="font-size: 12px; color: var(--color-text-success); margin: 4px 0 0;">↓ 1.2 vs 2023</p>
     </div>
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Rustig verkeer 2024</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Slow traffic 2024</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">16.1 <span style="font-size: 13px; font-weight: 400;">µg/m³</span></p>
       <p style="font-size: 12px; color: var(--color-text-success); margin: 4px 0 0;">↓ 0.4 vs 2023</p>
     </div>
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10j-trend druk</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10 year -trend heavy traffic</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">−2.4 <span style="font-size: 13px; font-weight: 400;">µg/m³/jr</span></p>
     </div>
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10j-trend rustig</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10 year -trend slow traffic</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">−1.4 <span style="font-size: 13px; font-weight: 400;">µg/m³/jr</span></p>
     </div>
   </div>
@@ -35,34 +35,34 @@
     <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #888780;"></span>Rustig verkeer</span>
   </div>
   <div style="position: relative; width: 100%; height: 260px;">
-    <canvas id="no2Chart" role="img" aria-label="Staafgrafiek NO2-concentraties druk en rustig verkeer, 2023 en 2024">Druk: 21.8 (2023), 20.6 (2024). Rustig: 16.5 (2023), 16.1 (2024).</canvas>
+    <canvas id="no2Chart" role="img" aria-label="Staafgrafiek NO2-concentraties druk en rustig verkeer, 2023 en 2024">Heavy: 21.8 (2023), 20.6 (2024). slow: 16.5 (2023), 16.1 (2024).</canvas>
   </div>
 </div>
 
 <div id="tab-pm10" style="display:none;">
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 1.5rem;">
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Druk verkeer 2024</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Heavy traffic 2024</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">15.6 <span style="font-size: 13px; font-weight: 400;">µg/m³</span></p>
       <p style="font-size: 12px; color: var(--color-text-success); margin: 4px 0 0;">↓ 1.7 vs 2023</p>
     </div>
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Rustig verkeer 2024</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">Low traffic 2024</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">15.5 <span style="font-size: 13px; font-weight: 400;">µg/m³</span></p>
       <p style="font-size: 12px; color: var(--color-text-danger); margin: 4px 0 0;">↑ 0.7 vs 2023</p>
     </div>
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10j-trend druk</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10 year-trend heavy traffic</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">−0.7 <span style="font-size: 13px; font-weight: 400;">µg/m³/jr</span></p>
     </div>
     <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem;">
-      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10j-trend rustig</p>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px;">10j-trend low traffic</p>
       <p style="font-size: 22px; font-weight: 500; margin: 0; color: var(--color-text-primary);">−0.5 <span style="font-size: 13px; font-weight: 400;">µg/m³/jr</span></p>
     </div>
   </div>
   <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; font-size: 12px; color: var(--color-text-secondary);">
-    <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #A32D2D;"></span>Druk verkeer</span>
-    <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #888780;"></span>Rustig verkeer</span>
+    <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #A32D2D;"></span>Heavy traffic</span>
+    <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #888780;"></span>Low traffic</span>
   </div>
   <div style="position: relative; width: 100%; height: 260px;">
     <canvas id="pm10Chart" role="img" aria-label="Staafgrafiek PM10-concentraties druk en rustig verkeer, 2023 en 2024">Druk: 17.3 (2023), 15.6 (2024). Rustig: 14.8 (2023), 15.5 (2024).</canvas>
